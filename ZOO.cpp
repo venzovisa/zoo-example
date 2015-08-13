@@ -47,19 +47,7 @@ public:
 		strcpy_s(type, typ);
 		strcpy_s(reason, r);
 		if (!strcmp(statusTemp, "false")) status = false;
-	}/*
-	void get(){
-		cout << "Name: " << name << "\n"
-			<< "Birth date: " <<birthDate << "\n"
-			<< "Enter date: "<< enterDate << "\n"
-			<< "Family: " << family << "\n"
-			<< "Type: " <<type << "\n";
-		if (status == false) { 
-			cout << "Status: Not available.\nReason: " << reason << endl;;
-		}
-		else { cout << "Status: Available" << endl; }
-	}//get
-	*/
+	}
 
 	void get(){
 		cout.fill(' ');
